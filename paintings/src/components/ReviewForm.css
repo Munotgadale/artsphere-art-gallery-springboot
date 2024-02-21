@@ -1,0 +1,12 @@
+.review-div{
+    max-width: 300px;
+    margin: auto;
+}
+.review-art{
+    font-family: cursive;
+    color: rgb(84, 83, 83);
+}
+
+.revive-h2{
+    font-weight: bold;
+}

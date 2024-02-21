@@ -1,0 +1,58 @@
+.artist-card {
+    font-family: 'Your Font Family', sans-serif; 
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .artist-card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .artist-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .artist-info {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .userImgNew {
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px; 
+  }
+
+  .gallery-description{
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: cursive;
+  }
+  
+  @media (min-width: 576px) {
+    .artist-card {
+      min-height: 350px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .artist-card {
+      min-height: 400px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .artist-card {
+      min-height: 450px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .artist-card {
+      min-height: 500px;
+    }
+  }
+  

@@ -1,0 +1,82 @@
+.user-images img.user-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.user-images img.user-image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.newImage {
+  width: 250px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.newImage:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.user-images {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.user-image-container {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.delete-button {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px;
+ 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-image {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 0;
+}
+
+.modal-zoomed-art {
+  max-width: 90vw; 
+}
+
+.zoomed-art-pic {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; 
+}
+
+.modal-zoomed-profile {
+  max-width: 90vw; 
+}
+
+.zoomed-profile-pic {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; 
+}
+
+
+

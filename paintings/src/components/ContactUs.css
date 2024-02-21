@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 24px;
+}
+
+.navbar-nav a {
+    color: #ffffff !important;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.contact-form {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 30px;
+}
+
+.contact-form h2 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-success:disabled {
+    background-color: #3b3b3b;
+    cursor: not-allowed;
+}
+
+.btn-success:hover {
+    background-color: #0a5700;
+}
+
+.additional-info,
+.location-info {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.additional-info h3,
+.location-info h3 {
+    color: #007bff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.additional-info p,
+.location-info p {
+    font-size: 18px;
+    color: #495057;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+    }
+
+    .form-control {
+        padding: 10px;
+    }
+
+    .btn-success {
+        padding: 10px 15px;
+    }
+
+    .additional-info,
+    .location-info {
+        padding: 20px;
+    }
+}

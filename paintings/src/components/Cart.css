@@ -1,0 +1,13 @@
+.art-image {
+    width: 100%;
+    max-height: 50vh; 
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .temp-img{
+    width: 100%;
+    max-height: 40vh; 
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }

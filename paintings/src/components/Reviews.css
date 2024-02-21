@@ -1,0 +1,52 @@
+.bg-dark.text-white {
+    text-align: center;
+    margin-top: 3%;
+}
+/* Margin-top for Card.Title and Card.Text */
+.bg-dark.text-white .card-title {
+    font-size: 400%; /* Adjust the font size as needed */
+    font-weight: bold; /* Optionally, set font weight */
+}
+
+.card-title .carousel-inner {
+    display: flex;
+    height: 100%;
+}
+
+/* Style for carousel text */
+.card-title h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20%; /* Remove default margin */
+   
+}
+
+/* Reviews.css */
+
+/* Position the reviewer avatar */
+.card-carousel .reviewer-avatar {
+    width: 170px; /* Adjust the size as needed */
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Background overlay style */
+.position-relative .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); /* Adjust the gradient as needed */
+    z-index: -1;
+}
+
+.section{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.reviews-class{
+    color: antiquewhite;
+    text-decoration: none;
+}

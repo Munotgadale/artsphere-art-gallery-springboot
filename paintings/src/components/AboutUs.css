@@ -1,0 +1,141 @@
+/* AboutUs.css */
+
+.team-img {
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid rgb(0, 0, 0);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.team-img:hover {
+  transform: scale(1.1);
+  filter: grayscale(100%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.item-social a {
+  color: white;
+  font-size: 18px;
+  background-color: #8b8686;
+  border-radius: 13px;
+  padding: 2px 6px;
+  margin: 0px 2px;
+}
+.item.social>a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.item.social>a:hover {
+  opacity: 0.9;
+}
+
+.item-social a:hover {
+  cursor: pointer;
+  color: #454545;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 13px;
+  padding: 1px 7px;
+}
+
+.abouttext{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Add these styles to your AboutUs.css file */
+
+/* Style for the Meet the Founders section */
+.about-section {
+  padding: 40px 0;
+}
+
+.about-text h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.about-text h5 {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.item-social {
+  margin-top: 20px;
+}
+
+
+.item-social a:hover {
+  color: #007bff;
+}
+
+/* Style for alternating founder sections */
+.about-section:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 767px) {
+  .about-section {
+      text-align: center;
+  }
+
+  .about-img {
+      margin-top: 20px;
+  }
+
+  .about-text h1,
+  .about-text h5 {
+      text-align: center;
+  }
+}
+
+/* Style for the video */
+section.video-section {
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Style for the section titles */
+.section-title {
+  font-size: 3rem;
+  color: #333;
+}
+
+.section-subtitle {
+  font-size: 1.3rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* Style for the main container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style for the hover effect on images */
+.hover-effect:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}

@@ -1,0 +1,38 @@
+/* Product Card Styles */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  max-height: 300px; /* Increase the max-height for larger images */
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card__heading {
+  color: #333;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.card-text {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
